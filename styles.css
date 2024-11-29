@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-color: #181818;
+  font-family: 'Poppins', sans-serif;
+}
+
+.site .navbar {
+  background: #232323;
+  height: 5em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(66, 68, 90, 1);
+  margin-bottom: 15px;
+}
+
+.site .navbar .nav {
+  display: flex;
+  gap: 40px;
+  font-size: 17px;
+}
+
+.site .navbar .nav .item {
+  text-decoration: none; /* Убирает подчеркивание у ссылок */
+  cursor: none;       /* Курсор становится кликабельным */
+  transition: color 0.4s ease; /* Плавная смена цвета */
+}
+
+.site .navbar .nav .item:hover {
+  color: #3344FF; /* Цвет при наведении */
+}
+
+.site .main {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.site .main .image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(108, 120, 255, 1);
+}
+
+.site .main .btn .button {
+  padding: 10px 3.4em;
+  background: #2C47FF;
+  text-decoration: none;
+  border-radius: 15px;
+  cursor: none;
+  transition: background 0.4s ease;
+  
+}
+.site .main .btn .button:hover {
+  background: #5C71FF;
+}
